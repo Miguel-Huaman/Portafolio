@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { Fragment} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Button from './components/atoms/buttons/Button.js'
+import Text from './components/atoms/text/Text.js'
+
+function Welcome(props) {
+    return <h1>Hola, {props.name}</h1>;
+}
+
+function App() {
+    return (
+        <Fragment>
+            <Button content="Botón"/>
+            <Text content="Hola"/>
+            <Text content="Miguel"/>
+        </Fragment>
+    );
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />,
+    document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

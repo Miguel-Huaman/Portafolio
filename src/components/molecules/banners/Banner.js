@@ -1,13 +1,13 @@
 import React from 'react'
-import H1 from '../../atoms/text/H1'
-import H2 from '../../atoms/text/H2'
+import MainTitle from '../../atoms/text/MainTitle'
+import MainSubtitle from '../../atoms/text/MainSubtitle'
 import './Banner.css'
 
 function Banner(props) {
     return (
         <div className="banner">
-            <H1 text={props.title} />
-            <H2 text={props.subtitle} />
+            <MainTitle text={props.title} />
+            <MainSubtitle text={props.subtitle} />
         </div>
     )
 }

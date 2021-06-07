@@ -1,14 +1,14 @@
 import React from 'react'
-import H1 from '../../atoms/text/H1'
-import H2 from '../../atoms/text/H2'
+import MainTitle from '../../atoms/text/MainTitle'
+import MainSubtitle from '../../atoms/text/MainSubtitle'
 import './About.css'
 
 function About(props) {
     return (
         <div className="about">
-            <H1 text={props.title} />
+            <MainTitle text={props.title} />
             <img src={props.foto} alt="foto" />
-            <H2 text={props.subtitle} />
+            <MainSubtitle text={props.subtitle} />
         </div>
     )
 }

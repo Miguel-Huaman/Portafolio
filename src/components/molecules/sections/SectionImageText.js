@@ -8,7 +8,7 @@ function SectionImageText(props) {
         <div className={styles.imageText}>
             <Title text={props.title} />
             <Subtitle text={props.subtitle} />
-            <img src={props.logo} alt="logoIT" />;
+            <img src={props.logo} alt="logoIT" />
         </div>
     )
 }

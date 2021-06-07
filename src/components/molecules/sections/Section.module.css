@@ -1,28 +1,27 @@
 .imageText, .textImage {
-    height: 20em;
     max-width: 75em;
     margin: 5em auto;
-    padding: 2em;
     overflow: hidden;
 }
 
-h2, p {
-    padding-bottom: 1em;
+.imageText > h2, .textImage > h2, .imageText > p, .textImage > p {
     max-width: 30em;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
-img {
-    display: block;
+.imageText > img, .textImage > img {
+    display: flex;
+    margin: 2em auto;
     height: 15em;
-    margin: 0 auto;
+    object-fit: none;
+    object-position: 50% 50%;
+    background-color: orangered;
 }
 
 @media only screen and (min-width: 720px) {
     .imageText, .textImage {
         display: grid;
-        margin: 2em auto;
-        padding: 0;
+        height: 20em;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -39,17 +38,22 @@ img {
         "subtitle image";
     }
 
-    h2 {
+    .imageText > h2, .textImage > h2 {
         grid-area: title;
         align-self: flex-end;
     }
 
-    p {
+    .imageText > p, .textImage > p {
         grid-area: subtitle;
     }
 
-    img {
+    .imageText > img, .textImage > img {
         grid-area: image;
-        height: 100%;
+        display: flex;
+        margin: 0 auto;
+        height: 20em;
+        object-fit: none;
+        object-position: 50% 50%;
+        background-color: orchid;
     }
 }

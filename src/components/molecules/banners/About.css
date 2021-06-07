@@ -1,0 +1,12 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+    padding: 4em 1em;
+    background-color: rgb(255, 216, 0);
+}
+
+img {
+    height: 20em;
+}

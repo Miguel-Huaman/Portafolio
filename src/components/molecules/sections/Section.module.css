@@ -1,0 +1,55 @@
+.imageText, .textImage {
+    height: 20em;
+    max-width: 75em;
+    margin: 5em auto;
+    padding: 2em;
+    overflow: hidden;
+}
+
+h2, p {
+    padding-bottom: 1em;
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    height: 15em;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 720px) {
+    .imageText, .textImage {
+        display: grid;
+        margin: 2em auto;
+        padding: 0;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .imageText {
+        grid-template-areas:
+        "image title"
+        "image subtitle";
+    }
+
+    .textImage {
+        grid-template-areas:
+        "title image"
+        "subtitle image";
+    }
+
+    h2 {
+        grid-area: title;
+        align-self: flex-end;
+    }
+
+    p {
+        grid-area: subtitle;
+    }
+
+    img {
+        grid-area: image;
+        height: 100%;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Background1.scss'
+import './Background1.css'
 
 function Background1(props) {
     return (

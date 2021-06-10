@@ -1,9 +1,9 @@
 .banner {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding-top: 15em;
-    padding-bottom: 2em;
+    justify-content: flex-end;
+    min-height: 30em;
+    height: 100vh;
     background-color: #111;
     color: #fff;
     text-align: center;
@@ -14,5 +14,16 @@
 }
 
 .banner p {
-    margin: 0 auto;
+    margin: 0 auto 2em;
+    max-width: 36rem;
+}
+
+.banner a {
+    margin: 0 auto 2em;
+    border: solid #fff;
+    border-width: 0 0.5rem 0.5rem 0;
+    display: inline-block;
+    padding: 0.5rem;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }

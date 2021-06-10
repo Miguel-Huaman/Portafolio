@@ -7,8 +7,10 @@ import Image2 from '../../atoms/images/image2.svg'
 function Main() {
     return (
         <Fragment>
+            <section id="Main"></section>
             <SectionTextImage
-                title="Cuando quieras, donde quieras"
+                id="anchor"
+                title="Donde quieras, cuando quieras."
                 subtitle="Disfrútalo en tu pantalla favorita, ya sea tu TV, tableta, computadora, teléfono y otros."
                 logo={Image1}
             />

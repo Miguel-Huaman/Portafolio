@@ -12,6 +12,7 @@ function Banner(props) {
             <MainSubtitle text={props.subtitle} />
             <ButtonSubscription text={props.button} />
             <MainDescription text={props.description} />
+            <a href='#Main'> </a>
         </div>
     )
 }

@@ -9,7 +9,7 @@ function Header() {
                 subtitle="Aplicaciones y páginas web exclusivas. Disfrútalas aquí y en todos tus dispositivos."
                 button="Empieza tu prueba gratuita"
                 description=
-                "Aplican términos y condiciones. La entrevista laboral presencial es gratis en la ciudad de Lima, Perú. Entrevistas por video llamada disponible en 195 países."
+                "Entrevista laboral gratuita. Aplican términos y condiciones. Entrevista presencial disponible únicamente en la ciudad de Lima, Perú. Entrevistas por video llamada disponible en 195 países."
             />
         </Fragment>
     )

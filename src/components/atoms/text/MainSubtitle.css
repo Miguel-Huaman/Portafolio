@@ -1,8 +1,21 @@
 .mainSubtitle {
-    margin: 0 auto;
-    color: #111;
-    font-size: 1.5rem;
+    display: block;
+    max-width: 26rem;
+    padding: 0 3em;
+    font-size: 1.1rem;
     font-weight: 600;
+    line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+}
+
+@media only screen and (max-width: 30em) {
+    .mainSubtitle {
+    font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 46em) {
+    .mainSubtitle {
+        max-width: max-content;
+    }
 }

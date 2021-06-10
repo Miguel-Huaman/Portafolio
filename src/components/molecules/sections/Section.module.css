@@ -19,10 +19,10 @@
 
 /* background */
 .imageText {
-    background-image: url("../../atoms/images/1.jpg");
+    background-color: var(--bg1);
 }
 .textImage {
-    background-image: url("../../atoms/images/2.jpg");
+    background-color: var(--bg1);
 }
 
 /* mobile */

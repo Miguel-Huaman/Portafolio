@@ -6,13 +6,16 @@
     border-radius: 0.5em;
     padding: 0 2em;
     text-align: center;
-    vertical-align: middle;
-    background-color: #fff;
-    color: #222;
+    background-color: var(--txt1);
+    color: var(--bg2);
     border: none;
     outline: none;
     font-size: 1rem;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+}
+
+.ButtonSubscription:hover, .ButtonSubscription:active {
+    opacity: 0.8;
 }

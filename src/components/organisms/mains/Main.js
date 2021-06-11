@@ -22,6 +22,7 @@ function Main() {
             />
             <section id="ultimp">Últimos estrenos</section>
             <SectionContent />
+            <SectionContent />
         </Fragment>
     )
 }

@@ -11,13 +11,17 @@ class SectionContent extends Component {
   }
 
   updateContent = () => {
-      this.setState({ message: "Updated Content!"});
-      this.setState({ subtitle: "Contenido editado 1"});
+    this.setState({
+      message: "titulo 1",
+      subtitle: "Contenido editado 001"
+    });
   }
 
   update2 = () => {
-      this.setState({ message: "New Content!"});
-      this.setState({ subtitle: "Contenido editado 2"});
+    this.setState({
+      message: "titulo 2",
+      subtitle: "Contenido editado 002"
+    });
   }
 
   render() {

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import './Main.css'
 import SectionImageText from '../../molecules/sections/SectionImageText'
 import SectionTextImage from '../../molecules/sections/SectionTextImage'
-import LoginControl from '../../molecules/sections/LoginControl'
+import SectionContent from '../../molecules/sections/SectionContent'
 import Image1 from '../../atoms/images/image1.svg'
 import Image2 from '../../atoms/images/image2.svg'
 
@@ -11,18 +11,17 @@ function Main() {
         <Fragment>
             <section id="Main"></section>
             <SectionTextImage
-                id="anchor"
-                title="Donde quieras, cuando quieras."
-                subtitle="Disfrútalo en tu pantalla favorita, ya sea tu TV, tableta, computadora, teléfono y otros. Todas las páginas están diseñadas para adaptarse al tamaño de tu pantalla."
+                title="Cuando quieras y donde quieras."
+                subtitle="Todas las páginas están diseñadas para que las disfrutes en tu pantalla favorita. Ya sea tu TV, tableta, computadora, o teléfono."
                 logo={Image1}
             />
             <SectionImageText
-                title="Decarga las páginas o clona los repositorios"
-                subtitle="Descargas ilimitadas para ver lo que quieras, cuando quieras. Lleva tus páginas favoritas siempre contigo, incluso sin conexión."
+                title="Detrás de cámaras y descargas ilimitadas"
+                subtitle="¡Código libre y bien documentado! Todas las páginas están disponibles en GitHub. Puedes descargar o clonar los repositorios cuantas veces quieras."
                 logo={Image2}
             />
             <section id="ultimp">Últimos estrenos</section>
-            <LoginControl />
+            <SectionContent />
         </Fragment>
     )
 }

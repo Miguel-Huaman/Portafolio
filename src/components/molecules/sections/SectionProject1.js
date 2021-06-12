@@ -3,7 +3,7 @@ import './SectionProjects.css';
 import Title from '../../atoms/text/Title';
 import Subtitle from '../../atoms/text/Subtitle';
 
-function SectionProjects(props) {
+function SectionProject1(props) {
   const [text, updateTitle] = useState(props.title);
   const [text2, updateSubtitle] = useState(props.subtitle);
   const [logo, updateImage] = useState(props.image0);
@@ -48,11 +48,9 @@ function SectionProjects(props) {
       }
     ];
 
-  const onClickButton0 = () => [
-    updateTitle(descriptions[0].title),
-    updateSubtitle(descriptions[0].subtitle),
-    updateImage(descriptions[0].image)
-    ]
+  const externalLink = () => {
+    window.open('https://miguel-hh.github.io/blog-de-bolsillo/', 'self')
+  }
 
   const onClickButton1 = () => [
     updateTitle(descriptions[1].title),
@@ -91,7 +89,7 @@ function SectionProjects(props) {
       <img src={logo} alt="logo" />
       <div className="content-buttons">
 
-        <button className="ButtonSubscription" onClick={onClickButton0}>
+        <button className="ButtonSubscription" onClick={externalLink}>
           {descriptions[0].button}
         </button>
 
@@ -120,4 +118,4 @@ function SectionProjects(props) {
   );
 }
 
-export default SectionProjects;
+export default SectionProject1;

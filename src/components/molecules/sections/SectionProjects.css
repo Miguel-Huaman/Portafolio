@@ -1,6 +1,8 @@
 .content-box {
-    background-color: var(--bg1);
+    display: flex;
+    flex-direction: column;
     margin: 2em 0;
+    background-color: var(--bg1);
 }
 
 .content-box > .title, .content-box > .subtitle {
@@ -11,16 +13,16 @@
 
 .content-box > img {
     display: flex;
-    margin: 2em auto;
-    height: 15em;
+    margin: 1em auto;
+    height: 10em;
     object-fit: none;
     object-position: 50% 50%;
 }
 
 .content-buttons {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(10em, 1fr) );
-    min-height: 4em;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 4em);
     gap: 1em;
     align-self: flex-end;
     padding: 0 2em 2em;
@@ -29,12 +31,14 @@
 .content-buttons > button {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 @media only screen and (min-width: 721px) {
     .content-box {
         display: grid;
-        height: 30em;
+        flex-direction: initial;
+        height: 25em;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr 2fr 1fr;
         grid-template-areas:
@@ -56,7 +60,7 @@
         grid-area: image;
         display: flex;
         margin: 0 auto;
-        height: 20em;
+        height: 100%;
         object-fit: none;
         object-position: 50% 50%;
     }
@@ -66,21 +70,40 @@
     }
 }
 
+@media only screen and (min-width: 420px) and (max-width: 599px) {
 
-@media only screen and (min-width: 593px) {
     .content-buttons {
-        grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-}
 
-@media only screen and (min-width: 833px) {
-    .content-buttons {
-        grid-template-columns: repeat( auto-fit, minmax(10em, 1fr) );
-    }
-}
-
-@media only screen and (max-width: 416px) {
     .content-buttons > button {
+        height: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+
+    .content-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .content-buttons > button {
+        height: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 419px) {
+
+    .content-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-buttons > button {
+        max-width: 100%;
         height: 2em;
+        padding: 0;
     }
 }

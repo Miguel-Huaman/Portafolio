@@ -40,6 +40,11 @@ function Main() {
                 subtitle3="subtitulo alternativo C1"
                 image3={Image2}
                 button3="clic aquí C1"
+
+                title4="titulo alternativo D1"
+                subtitle4="subtitulo alternativo D1"
+                image4={Image1}
+                button4="clic aquí D1"
             />
             <SectionProjects
                 title="titulo inicial 02"
@@ -60,7 +65,13 @@ function Main() {
                 subtitle3="subtitulo alternativo C2"
                 image3={Image1}
                 button3="clic aquí C2"
+
+                title4="titulo alternativo D2"
+                subtitle4="subtitulo alternativo D2"
+                image4={Image1}
+                button4="clic aquí D2"
             />
+            <section>Próximos estrenos</section>
             <SectionProjects
                 title="titulo inicial 03"
                 subtitle="subtitulo inicial 03"
@@ -80,6 +91,11 @@ function Main() {
                 subtitle3="subtitulo alternativo C3"
                 image3={Image2}
                 button3="clic aquí C3"
+
+                title4="titulo alternativo D3"
+                subtitle4="subtitulo alternativo D3"
+                image4={Image1}
+                button4="clic aquí D3"
             />
         </Fragment>
     )

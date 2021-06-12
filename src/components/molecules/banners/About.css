@@ -1,12 +1,20 @@
 .about {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     margin: 0;
-    padding: 4em 1em;
-    background-color: rgb(255, 216, 0);
+    padding-bottom: 3em;
+    background-color: var(--bg1);
+    color: var(--txt1);
+    text-align: center;
+}
+
+.about > p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
 }
 
 img {
-    height: 20em;
+    height: 10em;
+    padding-bottom: 2em;
 }

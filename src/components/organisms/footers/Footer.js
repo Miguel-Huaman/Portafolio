@@ -6,9 +6,8 @@ function Footer() {
     return (
         <Fragment>
             <About
-                title="Hola, soy Miguel&nbsp;Angel."
+                title="Acerca de"
                 foto={Foto}
-                subtitle="Aficionado del Desarrollo web."
             />
         </Fragment>
     )

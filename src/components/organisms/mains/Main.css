@@ -1,7 +1,12 @@
 section {
     margin: 0;
+    padding-top: 1em;
     color: var(--txt1);
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
+}
+
+#Main {
+    padding: 0;
 }

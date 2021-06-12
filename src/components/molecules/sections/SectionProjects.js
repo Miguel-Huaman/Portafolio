@@ -27,6 +27,12 @@ function SectionProjects(props) {
         subtitle: props.subtitle3,
         image: props.image3,
         button: props.button3,
+      },
+      {
+        title: props.title4,
+        subtitle: props.subtitle4,
+        image: props.image4,
+        button: props.button4,
       }
     ];
 
@@ -37,7 +43,7 @@ function SectionProjects(props) {
       <img src={logo} alt="logo" />
       <div className="content-buttons">
 
-        <button onClick={() => [
+        <button className="ButtonSubscription" onClick={() => [
           updateTitle(descriptions[0].title),
           updateSubtitle(descriptions[0].subtitle),
           updateImage(descriptions[0].image)
@@ -45,7 +51,7 @@ function SectionProjects(props) {
           {descriptions[0].button}
         </button>
 
-        <button onClick={() => [
+        <button className="ButtonSubscription" onClick={() => [
           updateTitle(descriptions[1].title),
           updateSubtitle(descriptions[1].subtitle),
           updateImage(descriptions[1].image)
@@ -53,12 +59,20 @@ function SectionProjects(props) {
           {descriptions[1].button}
         </button>
 
-        <button onClick={() => [
+        <button className="ButtonSubscription" onClick={() => [
           updateTitle(descriptions[2].title),
           updateSubtitle(descriptions[2].subtitle),
           updateImage(descriptions[2].image)
           ]}>
           {descriptions[2].button}
+        </button>
+
+        <button className="ButtonSubscription" onClick={() => [
+          updateTitle(descriptions[3].title),
+          updateSubtitle(descriptions[3].subtitle),
+          updateImage(descriptions[3].image)
+          ]}>
+          {descriptions[3].button}
         </button>
 
       </div>

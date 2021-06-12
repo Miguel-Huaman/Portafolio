@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import './Main.css'
 import SectionImageText from '../../molecules/sections/SectionImageText'
 import SectionTextImage from '../../molecules/sections/SectionTextImage'
-import SectionText from '../../molecules/sections/SectionText'
+import SectionProjects from '../../molecules/sections/SectionProjects'
 import Image1 from '../../atoms/images/image1.svg'
 import Image2 from '../../atoms/images/image2.svg'
 
@@ -20,10 +20,48 @@ function Main() {
                 subtitle="¡Código libre y bien documentado! Todas las páginas están disponibles en GitHub. Puedes descargar o clonar los repositorios cuantas veces quieras."
                 logo={Image2}
             />
-            <section id="ultimp">Últimos estrenos</section>
-            <SectionText
+            <section>Últimos estrenos</section>
+            <SectionProjects
+                title="titulo inicial 1"
+                subtitle="subtitulo inicial 1"
+                logo={Image1}
+                title1="titulo alternativo A1"
+                subtitle1="subtitulo alternativo A1"
+                button1="clic aquí A1"
+                title2="titulo alternativo B1"
+                subtitle2="subtitulo alternativo B1"
+                button2="clic aquí B1"
+                title3="titulo alternativo C1"
+                subtitle3="subtitulo alternativo C1"
+                button3="clic aquí C1"
             />
-            <SectionText
+            <SectionProjects
+                title="titulo inicial 02"
+                subtitle="subtitulo inicial 02"
+                logo={Image2}
+                title1="titulo alternativo A2"
+                subtitle1="subtitulo alternativo A2"
+                button1="clic aquí A2"
+                title2="titulo alternativo B2"
+                subtitle2="subtitulo alternativo B2"
+                button2="clic aquí B2"
+                title3="titulo alternativo C2"
+                subtitle3="subtitulo alternativo C2"
+                button3="clic aquí C2"
+            />
+            <SectionProjects
+                title="titulo inicial 03"
+                subtitle="subtitulo inicial 03"
+                logo={Image1}
+                title1="titulo alternativo A3"
+                subtitle1="subtitulo alternativo A3"
+                button1="clic aquí A3"
+                title2="titulo alternativo B3"
+                subtitle2="subtitulo alternativo B3"
+                button2="clic aquí B3"
+                title3="titulo alternativo C3"
+                subtitle3="subtitulo alternativo C3"
+                button3="clic aquí C3"
             />
         </Fragment>
     )

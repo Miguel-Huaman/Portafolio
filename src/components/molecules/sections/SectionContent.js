@@ -1,49 +1,53 @@
-import React, { Component } from 'react';
-import './SectionContent.css'
+import React, { useState, useEffect } from "react";
 
-class SectionContent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      message: "Default Content",
-      subtitle: "Contenido sin editar"
-    }
-  }
+const Profile = props => {
+  const [profileState, setProfileState] = useState(props);
 
-  updateContent = () => {
-    this.setState({
-      message: "titulo 1",
-      subtitle: "Contenido editado 001"
+  useEffect(() => {
+    setProfileState(props);
+  }, [props]);
+
+  return (
+    <div>
+      <p>
+        <strong>Name: </strong>
+        {profileState.name}
+      </p>
+      <p>
+        <strong>Email: </strong>
+        {profileState.email}
+      </p>
+    </div>
+  );
+};
+
+const SectionContent = () => {
+  const [state, setState] = useState({
+    name: "Param",
+    email: "param@gmail.com"
+  });
+
+  const handleChange = () => {
+    setState({
+      name: "Vennila",
+      email: "vennila@gmail.com"
     });
-  }
+  };
 
-  update2 = () => {
-    this.setState({
-      message: "titulo 2",
-      subtitle: "Contenido editado 002"
+  const handleChange2 = () => {
+    setState({
+      name: "Miguel",
+      email: "miguelHH@gmail.com"
     });
-  }
+  };
 
-  render() {
-    return (
-      <div className="content-box">
-        <div className="title">
-          { this.state.message }
-        </div>
-        <div className="subtitle">
-          { this.state.subtitle }
-        </div>
-        <div className="content-buttons">
-          <button onClick={this.updateContent}>
-            boton 1
-          </button>
-          <button onClick={this.update2}>
-            boton 2
-          </button>
-        </div>
-      </div>
-    );
-  }
-}
+  return (
+    <div className="SectionContent">
+      <Profile {...state} />
+      <button onClick={handleChange}>Change Profile</button>
+      <button onClick={handleChange2}>Change Profile</button>
+    </div>
+  );
+};
 
-export default SectionContent;
+export default SectionContent

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import './Main.css'
 import SectionImageText from '../../molecules/sections/SectionImageText'
 import SectionTextImage from '../../molecules/sections/SectionTextImage'
-import SectionContent from '../../molecules/sections/SectionContent'
+import SectionText from '../../molecules/sections/SectionText'
 import Image1 from '../../atoms/images/image1.svg'
 import Image2 from '../../atoms/images/image2.svg'
 
@@ -21,8 +21,10 @@ function Main() {
                 logo={Image2}
             />
             <section id="ultimp">Últimos estrenos</section>
-            <SectionContent />
-            <SectionContent />
+            <SectionText
+            />
+            <SectionText
+            />
         </Fragment>
     )
 }

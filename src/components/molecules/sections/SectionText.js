@@ -21,7 +21,6 @@ const feature3 = {
   button: "boton 3A",
 };
 
-
 function SectionText() {
   const [text, setText] = useState("cero");
   const [text2, setText2] = useState("cero");
@@ -51,7 +50,6 @@ function SectionText() {
         ]}>
           {feature3.button}
         </button>
-
 
       </div>
     </div>

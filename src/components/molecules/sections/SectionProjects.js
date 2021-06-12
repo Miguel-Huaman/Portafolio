@@ -4,8 +4,9 @@ import Title from '../../atoms/text/Title';
 import Subtitle from '../../atoms/text/Subtitle';
 
 function SectionProjects(props) {
-  const [text, setText] = useState(props.title);
-  const [text2, setText2] = useState(props.subtitle);
+  const [text, updateTitle] = useState(props.title);
+  const [text2, updateSubtitle] = useState(props.subtitle);
+  const [logo, updateImage] = useState(props.image0);
 
   const descriptions =
     [
@@ -33,26 +34,29 @@ function SectionProjects(props) {
     <div className="content-box">
       <Title text={text} />
       <Subtitle text={text2} />
-      <img src={props.logo} alt="logo" />
+      <img src={logo} alt="logo" />
       <div className="content-buttons">
 
         <button onClick={() => [
-          setText(descriptions[0].title),
-          setText2(descriptions[0].subtitle)
+          updateTitle(descriptions[0].title),
+          updateSubtitle(descriptions[0].subtitle),
+          updateImage(descriptions[0].image)
           ]}>
           {descriptions[0].button}
         </button>
 
         <button onClick={() => [
-          setText(descriptions[1].title),
-          setText2(descriptions[1].subtitle)
+          updateTitle(descriptions[1].title),
+          updateSubtitle(descriptions[1].subtitle),
+          updateImage(descriptions[1].image)
           ]}>
           {descriptions[1].button}
         </button>
 
         <button onClick={() => [
-          setText(descriptions[2].title),
-          setText2(descriptions[2].subtitle)
+          updateTitle(descriptions[2].title),
+          updateSubtitle(descriptions[2].subtitle),
+          updateImage(descriptions[2].image)
           ]}>
           {descriptions[2].button}
         </button>

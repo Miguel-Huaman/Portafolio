@@ -6,6 +6,11 @@ import SectionProjects from '../../molecules/sections/SectionProjects'
 import Image1 from '../../atoms/images/image1.svg'
 import Image2 from '../../atoms/images/image2.svg'
 
+const handleClick = () => {
+    window.scrollTo(0, 0);
+}
+
+
 function Main() {
     return (
         <Fragment>
@@ -49,7 +54,7 @@ function Main() {
             <SectionProjects
                 title = 'Portafolio'
                 subtitle = 'Con sabor a página de Streaming.'
-                image0 = {Image2}
+                image0={Image2}
 
                 title1 = 'Página construida con React.js'
                 subtitle1 = 'Todas los componenetes son reutilizables.'
@@ -97,6 +102,7 @@ function Main() {
                 image4 = {Image1}
                 button4 = 'Blog 2'
             />
+            <button onClick={handleClick}>Top</button>
         </Fragment>
     )
 }

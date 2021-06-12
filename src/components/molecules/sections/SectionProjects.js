@@ -36,6 +36,30 @@ function SectionProjects(props) {
       }
     ];
 
+  const onClickButton0 = () => [
+    updateTitle(descriptions[0].title),
+    updateSubtitle(descriptions[0].subtitle),
+    updateImage(descriptions[0].image)
+    ]
+
+  const onClickButton1 = () => [
+    updateTitle(descriptions[1].title),
+    updateSubtitle(descriptions[1].subtitle),
+    updateImage(descriptions[1].image)
+    ]
+
+  const onClickButton2 = () => [
+    updateTitle(descriptions[2].title),
+    updateSubtitle(descriptions[2].subtitle),
+    updateImage(descriptions[2].image)
+  ]
+
+  const onClickButton3 = () => [
+    updateTitle(descriptions[3].title),
+    updateSubtitle(descriptions[3].subtitle),
+    updateImage(descriptions[3].image)
+  ]
+
   return (
     <div className="content-box">
       <Title text={text} />
@@ -43,35 +67,19 @@ function SectionProjects(props) {
       <img src={logo} alt="logo" />
       <div className="content-buttons">
 
-        <button className="ButtonSubscription" onClick={() => [
-          updateTitle(descriptions[0].title),
-          updateSubtitle(descriptions[0].subtitle),
-          updateImage(descriptions[0].image)
-          ]}>
+        <button className="ButtonSubscription" onClick={onClickButton0}>
           {descriptions[0].button}
         </button>
 
-        <button className="ButtonSubscription" onClick={() => [
-          updateTitle(descriptions[1].title),
-          updateSubtitle(descriptions[1].subtitle),
-          updateImage(descriptions[1].image)
-          ]}>
+        <button className="ButtonSubscription" onClick={onClickButton1}>
           {descriptions[1].button}
         </button>
 
-        <button className="ButtonSubscription" onClick={() => [
-          updateTitle(descriptions[2].title),
-          updateSubtitle(descriptions[2].subtitle),
-          updateImage(descriptions[2].image)
-          ]}>
+        <button className="ButtonSubscription" onClick={onClickButton2}>
           {descriptions[2].button}
         </button>
 
-        <button className="ButtonSubscription" onClick={() => [
-          updateTitle(descriptions[3].title),
-          updateSubtitle(descriptions[3].subtitle),
-          updateImage(descriptions[3].image)
-          ]}>
+        <button className="ButtonSubscription" onClick={onClickButton3}>
           {descriptions[3].button}
         </button>
 

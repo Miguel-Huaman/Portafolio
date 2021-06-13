@@ -7,12 +7,12 @@
 .imageText > h2, .textImage > h2, .imageText > p, .textImage > p {
     max-width: 30em;
     margin: 0 auto;
-    padding: 1em;
+    padding: 1em 1em 0;
 }
 
 .imageText > img, .textImage > img {
     display: flex;
-    margin: 2em auto;
+    margin: 2em auto 0;
     height: 10em;
     object-fit: none;
     object-position: 50% 50%;

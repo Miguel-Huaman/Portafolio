@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react'
-import './Main.css'
-import SectionImageText from '../../molecules/sections/SectionImageText'
-import SectionTextImage from '../../molecules/sections/SectionTextImage'
-import SectionProjects from '../../molecules/sections/SectionProjects'
-import SectionProject1 from '../../molecules/sections/SectionProject1'
-import SectionProject2 from '../../molecules/sections/SectionProject2'
-import Image1 from '../../atoms/images/image1.svg'
-import Image2 from '../../atoms/images/image2.svg'
+import React, { Fragment } from 'react';
+import './Main.css';
+import SectionImageText from '../../molecules/sections/SectionImageText';
+import SectionTextImage from '../../molecules/sections/SectionTextImage';
+import SectionProjects from '../../molecules/sections/SectionProjects';
+import SectionProject1 from '../../molecules/sections/SectionProject1';
+import SectionProject2 from '../../molecules/sections/SectionProject2';
+import Image1 from '../../atoms/images/image1.svg';
+import Image2 from '../../atoms/images/image2.svg';
 
 function Main() {
     return (
@@ -28,102 +28,140 @@ function Main() {
             <section>Últimos estrenos</section>
 
             <SectionProject1
-                title = 'Blog de bolsillo'
-                subtitle = 'Todos los apuntes que están en tu celular se pueden publicar en "GitHub Pages"'
-                image0 = {Image1}
-                button1 = 'Ver ahora ▶'
+                title=
+                'Blog de bolsillo'
+                subtitle=
+                'Todos los apuntes que tienes en tu celular se pueden publicar en "GitHub Pages"'
+                image0={Image1}
+                button1='Ver ahora ▶'
 
-                title2 = 'Todo es posible con CSS'
-                subtitle2 = 'Menu desplegable y cambio de tema con CSS. Sin utilizar JavaScript'
-                image2 = {Image1}
-                button2 = 'CSS'
+                title2=
+                'Estilo e interactividad con CSS puro'
+                subtitle2=
+                'Puedes cambiar el tema del blog y activar su menú desplegable con CSS puro. ¡Sin utilizar JavaScript!'
+                image2={Image1}
+                button2='CSS'
 
-                title3 = 'SEO y Accesibilidad'
-                subtitle3 = 'Puntaje perfecto en "Lighthouse".'
+                title3=
+                'CSS modularizado'
+                subtitle3=
+                'SASS permite dividir el código de CSS en múltiple ficheros. Lo cual facilita la lectura y mantenimiento del código.'
                 image3 = {Image2}
-                button3 = 'Lighthouse'
+                button3 = 'SASS'
 
-                title4 = 'Todo está escrito en texto plano'
-                subtitle4 = 'Todos los post están escritos en "Markdown".'
-                image4 = {Image1}
-                button4='Markdown'
+                title4=
+                'Alojamiento y despliegue en GitHub'
+                subtitle4=
+                'Todos los post están escritos en formato "Markdown". Se utiliza un generador de plantillas para convertirlos en formato HTML y así publicalos en GitHub Pages. Esto facilita la escritura del blog porque ¿Qué es más fácil que escribir en texto plano?'
+                image4={Image1}
+                button4='GitHub'
 
-                title5 = 'Alojado en "GitHub Pages"'
-                subtitle5 = 'Jekyll y GitHub Pages convierten los archivos tipo markdown en HTML.'
-                image5 = {Image1}
-                button5='GitHub'
+                title5=
+                '"Lighthouse" es una herramienta de Google'
+                subtitle5=
+                'Sirve para analizar: rendimiento, SEO, accesibilidad y buenas prácticas. Este blog alanzó un puntaje perfecto de 100. Por lo tanto se encuentra optimizado en esas áreas.'
+                image5={Image1}
+                button5='Lighthouse'
 
-                title6 = 'Blog de bolsillo'
-                subtitle6 = 'Todos los apuntes que están en tu celular se pueden publicar en "GitHub Pages"'
-                image6 = {Image1}
-                button6 = 'Sinopsis'
+                title6=
+                'Blog de bolsillo'
+                subtitle6=
+                'Todos los apuntes que tienes en tu celular se pueden publicar en "GitHub Pages"'
+                image6={Image1}
+                button6='Sinopsis'
             />
             <SectionProject2
-                title = 'Portafolio'
-                subtitle = 'Con sabor a página de Streaming.'
+                title=
+                'Portafolio'
+                subtitle=
+                'Con sabor a página de Streaming.'
                 image0={Image2}
-                button1 = 'Ver ahora ▶'
+                button1='Ver ahora ▶'
 
-                title2 = 'Página construida con React.js'
-                subtitle2 = 'Todas los componenetes son reutilizables.'
-                image2 = {Image2}
-                button2 = 'React.js'
+                title2=
+                'Página construida con React.js'
+                subtitle2=
+                'Todas los componenetes son reutilizables.'
+                image2={Image2}
+                button2='React.js'
 
-                title3 = 'React Hooks'
-                subtitle3 = 'Los cambios de estado facilitan la lectura del código.'
-                image3 = {Image1}
-                button3 = 'Hooks'
+                title3=
+                'React Hooks'
+                subtitle3=
+                'Los cambios de estado facilitan la lectura del código.'
+                image3={Image1}
+                button3='Hooks'
 
-                title4 = 'Diseño atómico, a-tó-mi-co'
-                subtitle4 = 'Las etiquetas HTML forman átomos, que a su vez forman componentes, que a su vez forman plantillas, que a su vez...'
-                image4 = {Image1}
-                button4 = 'Atómico'
+                title4=
+                'Diseño atómico, a-tó-mi-co'
+                subtitle4=
+                'Las etiquetas HTML forman átomos, que a su vez forman componentes, que a su vez forman plantillas, que a su vez...'
+                image4={Image1}
+                button4='Atómico'
 
-                title5 = 'Imágenes propias'
-                subtitle5 = 'SVG hecho con Illustrator'
-                image5 = {Image1}
+                title5=
+                'Imágenes propias'
+                subtitle5=
+                'SVG hecho con Illustrator'
+                image5={Image1}
                 button5='Arte'
 
-                title6 = 'Portafolio'
-                subtitle6 = 'Con sabor a página de Streaming.'
-                image6 = {Image1}
-                button6 = 'Sinopsis'
+                title6=
+                'Portafolio'
+                subtitle6=
+                'Con sabor a página de Streaming.'
+                image6={Image1}
+                button6='Sinopsis'
             />
             <section>Un vistazo a los próximos lanzamientos</section>
             <SectionProjects
-                title = 'API'
-                subtitle = 'Ajax y WebSockets'
-                image0 = {Image1}
+                title=
+                'API'
+                subtitle=
+                'Ajax y WebSockets'
+                image0={Image1}
 
-                title1 = 'API'
-                subtitle1 = 'Ajax y WebSockets'
-                image1 = {Image2}
-                button1 = 'API'
+                title1=
+                'API'
+                subtitle1=
+                'Ajax y WebSockets'
+                image1={Image2}
+                button1='API'
 
-                title2 = 'JavaScript puro'
-                subtitle2 = 'Una app escrita con JavaScript puro. Programación orientada a objetos.'
-                image2 = {Image1}
-                button2 = 'JavaScript'
+                title2=
+                'JavaScript puro'
+                subtitle2=
+                'Una app escrita con JavaScript puro. Programación orientada a objetos.'
+                image2={Image1}
+                button2='JavaScript'
 
-                title3 = 'Portafolio - Segunda Temporada'
-                subtitle3 = 'Mejorar el código'
-                image3 = {Image2}
-                button3 = 'Portafolio 2'
+                title3=
+                'Portafolio - Segunda Temporada'
+                subtitle3=
+                'Mejorar el código'
+                image3={Image2}
+                button3='Portafolio 2'
 
-                title4 = 'Blog - Segunda Temporada'
-                subtitle4 = 'Mejorar el código'
-                image4 = {Image1}
-                button4 = 'Blog 2'
+                title4=
+                'Blog - Segunda Temporada'
+                subtitle4=
+                'Mejorar el código'
+                image4={Image1}
+                button4='Blog 2'
 
-                title5 = 'Alojado en "GitHub Pages"'
-                subtitle5 = 'Jekyll y GitHub Pages convierten los archivos tipo markdown en HTML.'
-                image5 = {Image1}
+                title5=
+                'Alojado en "GitHub Pages"'
+                subtitle5=
+                'Jekyll y GitHub Pages convierten los archivos tipo markdown en HTML.'
+                image5={Image1}
                 button5='GitHub'
 
-                title6 = 'Enlaces internos markdown'
-                subtitle6 = 'Todos los post están enlazados internamente, y sus links funcionan offline.'
-                image6 = {Image1}
-                button6 = 'Offline'
+                title6=
+                'Enlaces internos markdown'
+                subtitle6=
+                'Todos los post están enlazados internamente, y sus links funcionan offline.'
+                image6={Image1}
+                button6='Offline'
             />
         </Fragment>
     )

@@ -8,13 +8,20 @@
 .content-box > .title, .content-box > .subtitle {
     max-width: 30em;
     margin: 0 auto;
-    padding: 1em;
+    padding: 1em 1em 0;
+}
+
+.content-box > .title {
+    height: 3.5rem;
+}
+.content-box > .subtitle {
+    height: 6em;
 }
 
 .content-box > img {
     display: flex;
     margin: 1em auto;
-    height: 10em;
+    height: 8em;
     object-fit: none;
     object-position: 50% 50%;
 }
@@ -99,6 +106,7 @@
     .content-buttons {
         display: flex;
         flex-direction: column;
+        gap: 0.5em;
     }
 
     .content-buttons > button {

@@ -19,7 +19,7 @@
     color: var(--txt2);
 }
 
-.banner a {
+.banner > .arrow {
     margin: 0 auto 2em;
     border: solid var(--txt1);
     border-width: 0 0.5rem 0.5rem 0;
@@ -32,4 +32,14 @@
 .banner > .ButtonSubscription {
     max-width: 20rem;
     margin: 2em auto;
+    align-self: center;
+}
+
+.ButtonSubscription > a {
+    text-decoration: transparent;
+}
+
+.ButtonSubscription > a:link,
+.ButtonSubscription > a:visited {
+    color: var(--bg1);
 }

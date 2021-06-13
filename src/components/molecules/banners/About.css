@@ -1,10 +1,10 @@
 .about {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    min-height: 30em;
-    margin: 0;
-    padding-bottom: 3em;
+    height: calc(100vh - 4em);
+    min-height: 25em;
+    margin: 2em 0 0;
+    padding-top: 2em;
     background-color: var(--bg1);
     color: var(--txt1);
     text-align: center;

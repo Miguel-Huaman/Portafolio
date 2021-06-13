@@ -1,6 +1,6 @@
 section {
     margin: 0;
-    padding-top: 1em;
+    padding: 1em 0;
     color: var(--txt1);
     font-size: 1.5rem;
     font-weight: 600;
@@ -9,4 +9,8 @@ section {
 
 #Main {
     padding: 0;
+}
+
+.nowrap {
+    white-space: nowrap;
 }

@@ -28,90 +28,68 @@ function Main() {
             <section>Últimos estrenos</section>
 
             <SectionProject1
-                title=
+                title_0=
                 'Blog de bolsillo'
-                subtitle=
+                subtitle_0=
                 'Todos los apuntes que tienes en tu celular se pueden publicar en "GitHub Pages"'
-                image0={Image1}
-                button1='Ver ahora ▶'
+                image_0={Image1}
 
-                title2=
+                title_1=
                 'Estilo e interactividad con CSS puro'
-                subtitle2=
+                subtitle_1=
                 'Puedes cambiar el tema del blog y activar su menú desplegable con CSS puro. ¡Sin utilizar JavaScript!'
-                image2={Image1}
-                button2='CSS'
+                image_1={Image1}
+                button_1='CSS'
 
-                title3=
+                title_2=
                 'CSS modularizado'
-                subtitle3=
+                subtitle_2=
                 'SASS permite dividir el código de CSS en múltiple ficheros. Lo cual facilita la lectura y mantenimiento del código.'
-                image3 = {Image2}
-                button3 = 'SASS'
+                image_2={Image2}
+                button_2='SASS'
 
-                title4=
-                'Alojamiento y despliegue en GitHub'
-                subtitle4=
-                'Todos los post están escritos en formato "Markdown". Se utiliza un generador de plantillas para convertirlos en formato HTML y así publicalos en GitHub Pages. Esto facilita la escritura del blog porque ¿Qué es más fácil que escribir en texto plano?'
-                image4={Image1}
-                button4='GitHub'
+                title_3=
+                '¿Qué es más fácil que escribir en texto plano?'
+                subtitle_3=
+                'Todos los post están escritos en formato Markdown. Con un clic se alojan en GitHub. Automáticamente, un generador de plantillas los convierte en HTML y los publica en "GitHub Pages".'
+                image_3={Image1}
+                button_3='GitHub'
 
-                title5=
-                '"Lighthouse" es una herramienta de Google'
-                subtitle5=
-                'Sirve para analizar: rendimiento, SEO, accesibilidad y buenas prácticas. Este blog alanzó un puntaje perfecto de 100. Por lo tanto se encuentra optimizado en esas áreas.'
-                image5={Image1}
-                button5='Lighthouse'
-
-                title6=
-                'Blog de bolsillo'
-                subtitle6=
-                'Todos los apuntes que tienes en tu celular se pueden publicar en "GitHub Pages"'
-                image6={Image1}
-                button6='Sinopsis'
+                button_4='Sinopsis'
+                button_5='Ver ahora ▶'
+                button_6='Repositorio ▶'
             />
             <SectionProject2
-                title=
-                'Portafolio'
-                subtitle=
-                'Con sabor a página de Streaming.'
-                image0={Image2}
-                button1='Ver ahora ▶'
+                title_0=
+                'Portafolio personal'
+                subtitle_0=
+                'Hecho con React.js y mucha esperanza'
+                image_0={Image1}
 
-                title2=
-                'Página construida con React.js'
-                subtitle2=
-                'Todas los componenetes son reutilizables.'
-                image2={Image2}
-                button2='React.js'
+                title_1=
+                'Este título es un componente reutilizable'
+                subtitle_1=
+                'Incluso este párrafo es un componente reutilizable. Esta es la magia de React.js que permite crear componentes fáciles de reutilizar.'
+                image_1={Image1}
+                button_1='React.js'
 
-                title3=
-                'React Hooks'
-                subtitle3=
-                'Los cambios de estado facilitan la lectura del código.'
-                image3={Image1}
-                button3='Hooks'
+                title_2=
+                'Este título se actualiza al hacer clic en un botón'
+                subtitle_2=
+                'Los "Hooks" permiten actualizar el estado de un componente sin tener que escribir una clase. No parece gran cosa pero, ahora, el código es más limpio y legible.'
+                image_2={Image2}
+                button_2='Hooks'
 
-                title4=
-                'Diseño atómico, a-tó-mi-co'
-                subtitle4=
-                'Las etiquetas HTML forman átomos, que a su vez forman componentes, que a su vez forman plantillas, que a su vez...'
-                image4={Image1}
-                button4='Atómico'
+                title_3=
+                'Diseño atómico, "a-tó-mi-co".'
+                subtitle_3=
+                'Todos los componentes están organizados utilizados con la metodología del "diseño atómico". La cual facilita la reutilización del código y agiliza los posibles cambios visuales.'
+                image_3={Image1}
+                button_3='Atómico'
 
-                title5=
-                'Imágenes propias'
-                subtitle5=
-                'SVG hecho con Illustrator'
-                image5={Image1}
-                button5='Arte'
-
-                title6=
-                'Portafolio'
-                subtitle6=
-                'Con sabor a página de Streaming.'
-                image6={Image1}
-                button6='Sinopsis'
+                button_4='Sinopsis'
+                button_5='Ver ahora ▶'
+                button_6='Repositorio ▶'
             />
             <section>Un vistazo a los próximos lanzamientos</section>
             <SectionProjects
@@ -163,6 +141,7 @@ function Main() {
                 image6={Image1}
                 button6='Offline'
             />
+            <section id="About">Acerca de</section>
         </Fragment>
     )
 }

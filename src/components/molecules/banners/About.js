@@ -1,5 +1,4 @@
 import React from 'react'
-import MainSubtitle from '../../atoms/text/MainSubtitle'
 import './About.css'
 
 const externalLink1 = () => {
@@ -13,8 +12,6 @@ const externalLink2 = () => {
 function About(props) {
     return (
         <div className="about">
-            <section id="About"></section>
-            <MainSubtitle text={props.title} />
             <img src={props.foto} alt="foto" />
             <p>Hola, Soy Miguel Angel Huamán <br></br> Aficionado al desarrollo web</p>
             <p>Esta página está hecha con React.js</p>

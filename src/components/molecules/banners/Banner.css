@@ -48,23 +48,37 @@
     color: var(--bg1);
 }
 
-.banner > .carousel {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    opacity: 0.5;
-    z-index: 1;
-    min-height: 30em;
-    height: 100vh;
-    animation: posters 30s linear infinite;
+h1 {
+    will-change: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("../../atoms/images/gradient.jpg");
+    /*background-size: 200%;*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 9s infinite;
 }
 
-@keyframes posters {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-
-  100% {
-    transform: translate3d(-2000px, 0, 0);
-  }
+@keyframes gradient {
+    0% {
+        background-position: 10% 10%;
+        background-size: 200%;
+    }
+    25% {
+        background-position: 40% 20%;
+        background-size: 300%;
+    }
+    50% {
+        background-position: 85% 85%;
+        background-size: 200%;
+    }
+    75% {
+        background-position: 20% 40%;
+        background-size: 300%;
+    }
+    100% {
+        background-position: 10% 10%;
+        background-size: 200%;
+    }
 }

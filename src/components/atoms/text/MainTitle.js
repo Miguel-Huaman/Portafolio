@@ -1,9 +1,9 @@
 import React from 'react'
 import './MainTitle.css'
 
-function MainTitle(props) {
+function MainTitle() {
     return (
-        <h1 className="mainTitle">{props.text}</h1>
+        <h1 className="mainTitle">Miguel&nbsp;Angel <br></br> Huamán</h1>
     )
 }
 

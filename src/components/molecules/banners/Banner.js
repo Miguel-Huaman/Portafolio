@@ -8,17 +8,13 @@ import '../../atoms/buttons/ButtonSubscription.css'
 function Banner(props) {
     return (
         <div className="banner">
-            <MainTitle text={props.title} />
+            <MainTitle />
             <MainSubtitle text={props.subtitle} />
             <button className="ButtonSubscription">
                 <a href='#About'>{props.button}</a>
             </button>
             <MainDescription text={props.description} />
             <a className="arrow" href='#Main'> </a>
-            <div className="carousel">
-                <img src={props.backgroundImage} alt="posters" />
-                <img src={props.backgroundImage} alt="posters" />
-            </div>
         </div>
     )
 }

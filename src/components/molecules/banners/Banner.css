@@ -5,8 +5,13 @@
     min-height: 30em;
     height: 100vh;
     background-color: var(--bg1);
-    color: var(--txt1);
+    color: #fff;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-align: center;
+}
+
+.banner * {
+    z-index: 2;
 }
 
 .banner h2 {
@@ -16,7 +21,6 @@
 .banner p {
     margin: 0 auto 2em;
     max-width: 36rem;
-    color: var(--txt2);
 }
 
 .banner > .arrow {
@@ -42,4 +46,25 @@
 .ButtonSubscription > a:link,
 .ButtonSubscription > a:visited {
     color: var(--bg1);
+}
+
+.banner > .carousel {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.5;
+    z-index: 1;
+    min-height: 30em;
+    height: 100vh;
+    animation: posters 30s linear infinite;
+}
+
+@keyframes posters {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-2000px, 0, 0);
+  }
 }

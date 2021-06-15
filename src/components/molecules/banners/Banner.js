@@ -15,6 +15,10 @@ function Banner(props) {
             </button>
             <MainDescription text={props.description} />
             <a className="arrow" href='#Main'> </a>
+            <div className="carousel">
+                <img src={props.backgroundImage} alt="posters" />
+                <img src={props.backgroundImage} alt="posters" />
+            </div>
         </div>
     )
 }

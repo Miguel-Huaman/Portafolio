@@ -15,8 +15,7 @@
     display: flex;
     margin: 2em auto 0;
     height: 10em;
-    object-fit: none;
-    object-position: 50% 50%;
+    object-fit: cover;
 }
 
 /* background */
@@ -60,9 +59,9 @@
     .imageText > img, .textImage > img {
         grid-area: image;
         display: flex;
-        margin: 0 auto;
+        margin: 1em auto;
         height: 20em;
-        object-fit: none;
+        object-fit: cover;
         object-position: 50% 50%;
     }
 }

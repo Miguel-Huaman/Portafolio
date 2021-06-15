@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../../molecules/banners/Banner.js';
+import Posters from '../../atoms/images/posters.png';
 
 function Header() {
     return (
@@ -12,6 +13,7 @@ function Header() {
             "Empieza tu prueba gratuita"
             description=
             "Entrevista laboral gratuita. Aplican términos y condiciones. Entrevista presencial disponible únicamente en la ciudad de Lima, Perú. Entrevistas por video llamada disponible en 195 países."
+            backgroundImage={Posters}
         />
     )
 };

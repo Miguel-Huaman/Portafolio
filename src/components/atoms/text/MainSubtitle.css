@@ -1,15 +1,15 @@
 .mainSubtitle {
     display: block;
     max-width: 26rem;
-    padding: 0 3em;
+    padding: 0 2em;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.5;
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 480px) {
     .mainSubtitle {
-    font-size: 1rem;
+        font-size: 1rem;
     }
 }
 

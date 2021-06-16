@@ -3,7 +3,7 @@ import './MainTitle.css'
 
 function MainTitle() {
     return (
-        <h1 className="mainTitle">Miguel&nbsp;Angel <br></br> Huamán</h1>
+        <h2 className="mainTitle">Miguel&nbsp;Angel&nbsp;+</h2>
     )
 }
 

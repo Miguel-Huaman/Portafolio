@@ -5,7 +5,6 @@ import SectionTextImage from '../../molecules/sections/SectionTextImage';
 import SectionProjects from '../../molecules/sections/SectionProjects';
 import SectionProject1 from '../../molecules/sections/SectionProject1';
 import SectionProject2 from '../../molecules/sections/SectionProject2';
-import Pantallas from '../../atoms/images/pantallas.png';
 import GitHub from '../../atoms/images/github.png';
 import Image1 from '../../atoms/images/image1.svg';
 import Image2 from '../../atoms/images/image2.svg';
@@ -19,7 +18,6 @@ function Main() {
             <SectionTextImage
                 title = 'Cuando quieras y donde quieras'
                 subtitle = 'Todas las páginas están diseñadas para que las disfrutes en tu pantalla favorita. Ya sea tu TV, tableta, computadora, o teléfono.'
-                logo = {Pantallas}
             />
             <SectionImageText
                 title = 'Detrás de cámaras y descargas ilimitadas'

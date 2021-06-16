@@ -14,3 +14,36 @@ section {
 .nowrap {
     white-space: nowrap;
 }
+
+/* Screens animation */
+
+#celular, #laptop1, #tablet, #tv {
+    animation: blink 10s infinite step-end;
+}
+
+#laptop1 {
+  animation-delay: 1.5s;
+}
+
+#celular {
+  animation-delay: 3s;
+}
+
+#tablet {
+  animation-delay: 4.5s;
+}
+
+@keyframes blink {
+  0% {
+    fill: #ef476f;
+  }
+  33% {
+    fill: #ffd166;
+  }
+  66% {
+    fill: #06d6a0;
+  }
+  100% {
+    fill: #ef476f;
+  }
+}

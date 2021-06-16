@@ -79,7 +79,7 @@
     width: auto;
     object-fit: cover;
     animation: carousel linear infinite;
-    animation-duration: 30s;
+    animation-duration: 80s;
 }
 
 @keyframes carousel {
@@ -87,14 +87,14 @@
         transform: translate3d(0, 0, 0);
         opacity: 0;
     }
-    20% {
-        opacity: 0.75;
+    10% {
+        opacity: 0.66;
     }
-    80% {
-        opacity: 0.75;
+    90% {
+        opacity: 0.66;
     }
     100% {
-        transform: translate3d(-30rem,0,0);
+        transform: translate3d(-80rem,0,0);
         opacity: 0;
     }
 }

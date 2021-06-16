@@ -2,7 +2,7 @@
     height: 43em;
     max-width: 100vw;
     width: 100%;
-    background-color: var(--bg1);
+    background-color: transparent;
     color: #fff;
     text-align: center;
 }
@@ -32,7 +32,7 @@
 
 .container > .arrow {
     display: inline-block;
-    margin: 0 auto 1em;
+    margin: 0 auto 2em;
     padding: 0.5rem;
     border: solid var(--txt1);
     border-width: 0 0.5rem 0.5rem 0;
@@ -79,7 +79,7 @@
     width: auto;
     object-fit: cover;
     animation: carousel linear infinite;
-    animation-duration: 20s;
+    animation-duration: 30s;
 }
 
 @keyframes carousel {
@@ -87,47 +87,14 @@
         transform: translate3d(0, 0, 0);
         opacity: 0;
     }
-    50% {
-        opacity: 0.5;
+    20% {
+        opacity: 0.75;
+    }
+    80% {
+        opacity: 0.75;
     }
     100% {
         transform: translate3d(-30rem,0,0);
         opacity: 0;
     }
 }
-
-/*
-h1 {
-    will-change: auto;
-    display: block;
-    background-repeat: no-repeat;
-    background-image: url("../../atoms/images/gradient.jpg");
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: gradient 9s infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 10% 10%;
-        background-size: 200%;
-    }
-    25% {
-        background-position: 40% 20%;
-        background-size: 300%;
-    }
-    50% {
-        background-position: 85% 85%;
-        background-size: 200%;
-    }
-    75% {
-        background-position: 20% 40%;
-        background-size: 300%;
-    }
-    100% {
-        background-position: 10% 10%;
-        background-size: 200%;
-    }
-}
-*/

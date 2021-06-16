@@ -1,6 +1,6 @@
 :root {
-    --bg1: #111;
-    --bg2: #333;
+    --bg1: #121212;
+    --bg2: #212121;
     --txt1: #eee;
     --txt2: #aaa;
 }
@@ -14,6 +14,6 @@ body {
     padding: 0;
     min-width: 320px;
     max-width: 90em;
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Segoe UI",sans-serif;
 }

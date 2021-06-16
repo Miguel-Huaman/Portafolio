@@ -8,7 +8,7 @@ function Header() {
             subtitle=
             "Aplicaciones y páginas web originales."
             button=
-            "Empieza tu prueba gratuita"
+            "Más información"
             description=
             '* Términos y condiciones. La promoción: "Entrevista laboral presencial" se encuentra disponible únicamente en la ciudad de Lima, Perú. Entrevista por video llamada disponible en 195 países.'
             poster={ Poster }

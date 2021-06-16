@@ -19,11 +19,9 @@
 }
 
 /* background */
-.imageText {
-    background-color: var(--bg1);
-}
+.imageText,
 .textImage {
-    background-color: var(--bg1);
+    background-color: var(--bg2);
 }
 
 /* mobile */

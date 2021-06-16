@@ -1,11 +1,9 @@
 .about {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 4em);
-    min-height: 25em;
-    margin: 2em 0 0;
+    margin: -5em auto 2em;
     padding-top: 2em;
-    background-color: var(--bg1);
+    background-color: transparent;
     color: var(--txt1);
     text-align: center;
 }
@@ -14,11 +12,6 @@
     margin: 0;
     padding: 0 1em;
     line-height: 1.2;
-}
-
-.about > h2 {
-    align-self: center;
-    font-size: 2rem;
 }
 
 .about > img {
@@ -38,4 +31,40 @@
 .about > .buttonContainer > .ButtonSubscription {
     width: 100%;
     height: 2em;
+}
+
+.about > h2 {
+    align-self: center;
+    font-size: 4rem;
+    will-change: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("../../atoms/images/gradient.jpg");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 9s linear infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 10% 10%;
+        background-size: 200%;
+    }
+    25% {
+        background-position: 50% 30%;
+        background-size: 200%;
+    }
+    50% {
+        background-position: 90% 90%;
+        background-size: 200%;
+    }
+    75% {
+        background-position: 30% 50%;
+        background-size: 200%;
+    }
+    100% {
+        background-position: 10% 10%;
+        background-size: 200%;
+    }
 }

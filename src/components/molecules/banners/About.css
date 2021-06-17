@@ -40,10 +40,11 @@
     display: block;
     background-repeat: no-repeat;
     background-image: url("../../atoms/images/gradient.jpg");
+    /*background-size: 300px 100px;*/
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: gradient 9s linear infinite;
+    animation: gradient 6s linear infinite;
 }
 
 @keyframes gradient {
@@ -52,16 +53,16 @@
         background-size: 200%;
     }
     25% {
-        background-position: 40% 60%;
-        background-size: 200%;
+        background-position: 20% 60%;
+        background-size: 300%;
     }
     50% {
-        background-position: 90% 90%;
+        background-position: 80% 80%;
         background-size: 200%;
     }
     75% {
-        background-position: 60% 40%;
-        background-size: 200%;
+        background-position: 60% 20%;
+        background-size: 300%;
     }
     100% {
         background-position: 10% 10%;

@@ -11,7 +11,7 @@
     padding: 1em 1em 0;
 }
 
-.imageText > img, .textImage > img {
+.imageText > img, .textImage > svg {
     display: flex;
     margin: 2em auto 0;
     height: 10em;
@@ -54,7 +54,7 @@
         grid-area: subtitle;
     }
 
-    .imageText > img, .textImage > img {
+    .imageText > img, .textImage > svg {
         grid-area: image;
         display: flex;
         margin: 1em auto;

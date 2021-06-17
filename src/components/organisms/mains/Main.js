@@ -8,6 +8,9 @@ import SectionProject2 from '../../molecules/sections/SectionProject2';
 import GitHub from '../../atoms/images/github.png';
 import Image1 from '../../atoms/images/image1.svg';
 import Image2 from '../../atoms/images/image2.svg';
+import BlogTema from '../../atoms/images/tema.gif';
+import BlogMenu from '../../atoms/images/menu.gif';
+import BlogSass from '../../atoms/images/sass.gif';
 
 function Main() {
     return (
@@ -32,27 +35,27 @@ function Main() {
                 'Blog de bolsillo'
                 subtitle_0=
                 'Todos los apuntes que tienes en tu celular se pueden publicar en "GitHub Pages"'
-                image_0={Image1}
+                image_0={BlogTema}
 
                 title_1=
                 'Estilo e interactividad con CSS puro'
                 subtitle_1=
                 'Puedes cambiar el tema del blog y activar su menú desplegable con CSS puro. ¡Sin utilizar JavaScript!'
-                image_1={Image1}
+                image_1={BlogMenu}
                 button_1='CSS'
 
                 title_2=
                 'CSS modularizado'
                 subtitle_2=
                 'SASS permite dividir el código de CSS en múltiple ficheros. Lo cual facilita la lectura y mantenimiento del código.'
-                image_2={Image2}
+                image_2={BlogSass}
                 button_2='SASS'
 
                 title_3=
                 '¿Qué es más fácil que escribir en texto plano?'
                 subtitle_3=
                 'Todos los post están escritos en formato Markdown. Con un clic se alojan en GitHub. Automáticamente, un generador de plantillas los convierte en HTML y los publica en "GitHub Pages".'
-                image_3={Image1}
+                image_3={BlogTema}
                 button_3='GitHub'
 
                 button_4='Sinopsis'

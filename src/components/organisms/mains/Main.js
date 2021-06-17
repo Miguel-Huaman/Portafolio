@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import './Main.css';
-import SectionImageText from '../../molecules/sections/SectionImageText';
-import SectionTextImage from '../../molecules/sections/SectionTextImage';
+import SectionIntro from '../../molecules/sections/SectionIntro';
 import SectionProjects from '../../molecules/sections/SectionProjects';
 import SectionProject1 from '../../molecules/sections/SectionProject1';
 import SectionProject2 from '../../molecules/sections/SectionProject2';
@@ -18,11 +17,11 @@ function Main() {
 
             <section id="Main"></section>
 
-            <SectionTextImage
+            <SectionIntro
                 title = 'Cuando quieras y donde quieras'
                 subtitle = 'Todas las páginas están diseñadas para que las disfrutes en tu pantalla favorita. Ya sea tu TV, tableta, computadora, o teléfono.'
             />
-            <SectionImageText
+            <SectionIntro
                 title = 'Detrás de cámaras y descargas ilimitadas'
                 subtitle = '¡Código libre y bien documentado! Todas las páginas están disponibles en GitHub. Puedes descargar o clonar los repositorios cuantas veces quieras.'
                 logo = {GitHub}

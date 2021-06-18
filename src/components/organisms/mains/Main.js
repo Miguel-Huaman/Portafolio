@@ -4,7 +4,6 @@ import SectionIntro from '../../molecules/sections/SectionIntro';
 import SectionProjects from '../../molecules/sections/SectionProjects';
 import SectionProject1 from '../../molecules/sections/SectionProject1';
 import SectionProject2 from '../../molecules/sections/SectionProject2';
-import GitHub from '../../atoms/images/github.png';
 import Image1 from '../../atoms/images/image1.svg';
 import Image2 from '../../atoms/images/image2.svg';
 import BlogTema from '../../atoms/images/tema.gif';
@@ -19,12 +18,13 @@ function Main() {
 
             <SectionIntro
                 title = 'Cuando quieras y donde quieras'
-                subtitle = 'Todas las páginas están diseñadas para que las disfrutes en tu pantalla favorita. Ya sea tu TV, tableta, computadora, o teléfono.'
+                subtitle='Todas las páginas están diseñadas para que las disfrutes en tu pantalla favorita. Ya sea tu TV, tableta, computadora, o teléfono.'
+                logo='screens'
             />
             <SectionIntro
                 title = 'Detrás de cámaras y descargas ilimitadas'
-                subtitle = '¡Código libre y bien documentado! Todas las páginas están disponibles en GitHub. Puedes descargar o clonar los repositorios cuantas veces quieras.'
-                logo = {GitHub}
+                subtitle='¡Código libre y bien documentado! Todas las páginas están disponibles en GitHub. Puedes descargar o clonar los repositorios cuantas veces quieras.'
+                logo='github'
             />
 
             <section>Últimos estrenos</section>

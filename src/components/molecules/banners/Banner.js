@@ -20,6 +20,7 @@ function Banner(props) {
                 <div className="carousel">
                     <img src={props.poster} width="2000" height="600" alt="poster frontend" />
                     <img src={props.poster} width="2000" height="600" alt="poster frontend" />
+                    <img src={props.poster} width="2000" height="600" alt="poster frontend" />
                 </div>
             </div>
             <MainDescription text={props.description} />

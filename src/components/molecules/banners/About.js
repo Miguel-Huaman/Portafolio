@@ -14,6 +14,10 @@ function About(props) {
         <div className="about">
             <h2>Miguel Angel<br></br>Huamán</h2>
             <img src={props.foto} alt="foto" />
+            <ul>
+                <li>ff</li>
+                <li>gg</li>
+            </ul>
             <p>Hola, Soy Miguel Angel Huamán <br></br> Aficionado al desarrollo web</p>
             <p>Esta página está hecha con React.js</p>
             <p>Puedes encontrarme en estas redes sociales:</p>

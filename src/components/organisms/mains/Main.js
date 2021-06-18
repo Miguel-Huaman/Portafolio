@@ -19,12 +19,12 @@ function Main() {
             <SectionIntro
                 title = 'Cuando quieras y donde quieras'
                 subtitle='Todas las páginas están diseñadas para que las disfrutes en tu pantalla favorita. Ya sea tu TV, tableta, computadora, o teléfono.'
-                logo='screens'
+                logo='screensAnimation'
             />
             <SectionIntro
                 title = 'Detrás de cámaras y descargas ilimitadas'
                 subtitle='¡Código libre y bien documentado! Todas las páginas están disponibles en GitHub. Puedes descargar o clonar los repositorios cuantas veces quieras.'
-                logo='github'
+                logo='githubLogo'
             />
 
             <section>Últimos estrenos</section>

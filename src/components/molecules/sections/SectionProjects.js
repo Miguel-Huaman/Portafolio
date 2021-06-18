@@ -86,8 +86,10 @@ function SectionProjects(props) {
 
   return (
     <div className="content-box">
-      <Title text={text} />
-      <Subtitle text={text2} />
+      <div className="content-titles">
+        <Title text={text} />
+        <Subtitle text={text2} />
+      </div>
       <img src={logo} alt="logo" />
       <div className="content-buttons">
 

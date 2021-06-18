@@ -1,8 +1,8 @@
 .content-box {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 2em 0;
+    margin: 2em auto;
+    padding: 0;
     background-color: hsl(250, 50%, 50%);
 }
 
@@ -10,24 +10,28 @@
     background-color: aqua;
 }
 
-.content-box > .title, .content-box > .subtitle {
+.content-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 30em;
     margin: 0 auto;
-    padding: 1em 1em 0;
+    height: 10em;
+    padding: 1em;
 }
-/*
-.content-box > .title {
-    height: 3.5rem;
+
+.content-titles > .title{
+    padding-bottom: 1em;
 }
-.content-box > .subtitle {
-    height: 6em;
-}*/
 
 .content-box > img {
     display: flex;
-    margin: 1em;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 0.5em;
+    width: 80%;
     height: auto;
-    min-width: calc(320px - 2em);
+    min-width: calc(320px - 3em);
 }
 
 .content-buttons {
@@ -49,6 +53,7 @@
     .content-box {
         display: grid;
         flex-direction: initial;
+        padding-top: 1em;
         height: 25em;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr 2fr 1fr;
@@ -58,19 +63,19 @@
         "buttons   buttons";
     }
 
-    .content-box > .title {
+    .content-titles > .title {
         grid-area: title;
         align-self: flex-end;
     }
 
-    .content-box > .subtitle {
+    .content-titles > .subtitle {
         grid-area: subtitle;
     }
 
-    .content-box > img {
+    .content-box img {
         grid-area: image;
-        display: flex;
-        margin: 1em auto;
+        display: flex;/*
+        margin: 1em auto;*/
         max-height: 15em;
         object-fit: cover;
         object-position: 50% 50%;
@@ -79,6 +84,14 @@
     .content-buttons {
         grid-area: buttons;
     }
+
+    .content-titles {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-top: 5em;
+    }
+
 }
 
 @media only screen and (min-width: 420px) and (max-width: 599px) {
@@ -91,6 +104,7 @@
     .content-buttons > button {
         height: 2.5em;
     }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 999px) {

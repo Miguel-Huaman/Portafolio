@@ -4,8 +4,6 @@ import SectionIntro from '../../molecules/sections/SectionIntro';
 import SectionProjects from '../../molecules/sections/SectionProjects';
 import SectionProject1 from '../../molecules/sections/SectionProject1';
 import SectionProject2 from '../../molecules/sections/SectionProject2';
-import Image1 from '../../atoms/images/image1.svg';
-import Image2 from '../../atoms/images/image2.svg';
 import BlogTema from '../../atoms/images/tema.gif';
 import BlogMenu from '../../atoms/images/menu.gif';
 import BlogSass from '../../atoms/images/sass.gif';
@@ -53,7 +51,7 @@ function Main() {
                 title_3=
                 '¿Qué es más fácil que escribir en texto plano?'
                 subtitle_3=
-                'Todos los post están escritos en formato Markdown. Con un clic se alojan en GitHub. Automáticamente, un generador de plantillas los convierte en HTML y los publica en "GitHub Pages".'
+                'Todos los post están escritos en formato Markdown. Un generador de plantillas los convierte en HTML y los publica en "GitHub Pages".'
                 image_3={BlogTema}
                 button_3='GitHub'
 
@@ -65,28 +63,28 @@ function Main() {
                 title_0=
                 'Portafolio personal'
                 subtitle_0=
-                'Hecho con React.js y mucha esperanza'
-                image_0={Image1}
+                'En un portafolio se va a reutiizar mucho código. Por lo tanto decidí utilizar la librería "React"'
+                image_0={BlogMenu}
 
                 title_1=
                 'Este título es un componente reutilizable'
                 subtitle_1=
-                'Incluso este párrafo es un componente reutilizable. Esta es la magia de React.js que permite crear componentes fáciles de reutilizar.'
-                image_1={Image1}
+                'Incluso este párrafo es un componente reutilizable. Por amo "React", porque me permite crear componentes fáciles de reutilizar.'
+                image_1={BlogSass}
                 button_1='React.js'
 
                 title_2=
                 'Este título se actualiza al hacer clic en un botón'
                 subtitle_2=
-                'Los "Hooks" permiten actualizar el estado de un componente sin tener que escribir una clase. No parece gran cosa pero, ahora, el código es más limpio y legible.'
-                image_2={Image2}
+                'Los "Hooks" permiten actualizar el estado de un componente sin tener que escribir una clase. No parece gran cosa pero, gracias a los "hooks", el código es más limpio y legible.'
+                image_2={BlogTema}
                 button_2='Hooks'
 
                 title_3=
                 'Diseño atómico, "a-tó-mi-co".'
                 subtitle_3=
-                'Todos los componentes están organizados utilizados con la metodología del "diseño atómico". La cual facilita la reutilización del código y agiliza los posibles cambios visuales.'
-                image_3={Image1}
+                'Todos los componentes están organizados con la metodología: "Diseño Atómico". La cual facilita la reutilización del código y agiliza los posibles cambios visuales.'
+                image_3={BlogMenu}
                 button_3='Atómico'
 
                 button_4='Sinopsis'
@@ -96,54 +94,53 @@ function Main() {
             <section>Un vistazo a los próximos lanzamientos</section>
             <SectionProjects
                 title=
-                'API'
+                'En Julio...'
                 subtitle=
-                'Ajax y WebSockets'
-                image0={Image1}
+                'Una base de datos sobre todos los puestos de trabajo a los cuales he postulado'
+                image0={BlogSass}
 
                 title1=
-                'API'
+                'En Julio...'
                 subtitle1=
-                'Ajax y WebSockets'
-                image1={Image2}
-                button1='API'
+                'Una base de datos sobre todos los puestos de trabajo a los cuales he postulado'
+                image1={BlogTema}
+                button1='MongoDB'
 
                 title2=
-                'JavaScript puro'
+                'No soy diseñador pero...'
                 subtitle2=
-                'Una app escrita con JavaScript puro. Programación orientada a objetos.'
-                image2={Image1}
-                button2='JavaScript'
+                '... Sé que voy a trabajar con diseñadores. Por lo tanto debo aprender "Figma"'
+                image2={BlogSass}
+                button2='Figma'
 
                 title3=
-                'Portafolio - Segunda Temporada'
+                'La API más pequeña del mundo'
                 subtitle3=
-                'Mejorar el código'
-                image3={Image2}
-                button3='Portafolio 2'
+                'Protagonizada por Ajax y WebSockets'
+                image3={BlogSass}
+                button3='API'
 
                 title4=
-                'Blog - Segunda Temporada'
+                'Una app con JavaScript Puro'
                 subtitle4=
-                'Mejorar el código'
-                image4={Image1}
-                button4='Blog 2'
+                'Es hora de demostrar mis conocimientos en "Programación orientada a objetos".'
+                image4={BlogMenu}
+                button4='JavaScript'
 
                 title5=
-                'Alojado en "GitHub Pages"'
+                'Portafolio - Segunda Temporada'
                 subtitle5=
-                'Jekyll y GitHub Pages convierten los archivos tipo markdown en HTML.'
-                image5={Image1}
-                button5='GitHub'
+                'Menos botones y más memes.'
+                image5={BlogTema}
+                button5='Portafolio 2'
 
                 title6=
-                'Enlaces internos markdown'
+                'Blog - Segunda Temporada'
                 subtitle6=
-                'Todos los post están enlazados internamente, y sus links funcionan offline.'
-                image6={Image1}
-                button6='Offline'
+                'Es hora de completar la ruta de aprendizaje.'
+                image6={BlogMenu}
+                button6='Blog 2'
             />
-            <section id="About">Acerca de</section>
         </Fragment>
     )
 }

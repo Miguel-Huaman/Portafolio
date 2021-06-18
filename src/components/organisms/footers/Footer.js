@@ -1,6 +1,6 @@
 import React from 'react'
 import About from '../../molecules/banners/About'
-import Foto from '../../atoms/images/image2.svg'
+import Foto from '../../atoms/images/foto.png'
 
 function Footer() {
     return (

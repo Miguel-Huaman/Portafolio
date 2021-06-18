@@ -1,7 +1,7 @@
 .about {
     display: flex;
     flex-direction: column;
-    margin: -5em auto 2em;
+    margin: 2em auto 2em;
     padding-top: 2em;
     background-color: transparent;
     color: var(--txt1);
@@ -15,8 +15,9 @@
 }
 
 .about > img {
-    height: 10em;
-    padding-bottom: 2em;
+    padding: 2em 1em;
+    object-fit: contain;
+    max-height: 15em;
 }
 
 .about > .buttonContainer {
@@ -33,9 +34,40 @@
     height: 2em;
 }
 
-.about > h2 {
+.table {
+    margin: 1em;
+    max-width: 40em;
     align-self: center;
-    font-size: 4rem;
+    text-align: start;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.table * {
+    padding: 0.5em;
+}
+
+.year {
+    text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+    .table {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1em;
+    }
+
+    .about > h3 {
+        font-size: 2rem;
+    }
+}
+
+.about > h3 {
+    max-width: 25em;
+    padding: 1em;
+    align-self: center;
+    font-size: 1.5rem;
     will-change: auto;
     display: block;
     background-repeat: no-repeat;

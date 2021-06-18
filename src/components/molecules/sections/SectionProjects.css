@@ -2,7 +2,12 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 2em 0;
     background-color: hsl(250, 50%, 50%);
+}
+
+.content-box:nth-of-type(2) {
+    background-color: aqua;
 }
 
 .content-box > .title, .content-box > .subtitle {

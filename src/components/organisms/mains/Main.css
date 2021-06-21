@@ -22,25 +22,25 @@ section {
 }
 
 #laptop1 {
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }
 
 #celular {
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 
 #tablet {
-  animation-delay: 3s;
+  animation-delay: 2.5s;
 }
 
 @keyframes blink {
   0% {
     fill: #ef476f;
   }
-  20% {
+  33.333% {
     fill: #ffd166;
   }
-  40% {
+  66.667% {
     fill: #06d6a0;
   }
   100% {

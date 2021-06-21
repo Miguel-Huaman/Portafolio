@@ -18,17 +18,25 @@ function About(props) {
             <div className="table">
                 <div className="year">2020</div>
                 <div>
-                    Hasta ahora recuerdo el día que escribí mi primera línea de código. Quedé maravillado cuando la pantalla renderizó lo que yo había escrito.<br></br><br></br>
-                    Ahora tenía un nuevo hobby que pronto se convertiría en una obsesión, pues me pasé navidad y año nuevo diseñando páginas web. En ese momento yo sólo quería tener más tiempo libre para programar...
+                    <p>
+                        Hasta ahora recuerdo el día que escribí mi primera línea de código. Quedé maravillado cuando la pantalla renderizó lo que yo había escrito.
+                    </p>
+                    <p>
+                        Mientras más estudiaba JavaScript, menos tiempo tenía para ver series o películas. De pronto todo mi tiempo libre era para diseñar páginas web. Navidad y año nuevo incluidos. En ese momento yo sólo quería tener más tiempo libre para programar...
+                    </p>
                 </div>
                 <div className="year">2021</div>
                 <div>
-                    ¡Deseo concedido! Me quedé desempleado y eso me dio mucho tiempo para estudiar JavaScript. Me contagié de COVID y comencé a escribir un blog. Pero lo más importante es que ingresé al programa de becas en EDteam. Ahí conocí muchos programadores y diseñadores de toda latinoamérica.<br></br><br></br>
-                    Un día escuché que "Un autodidacta con un buen portafolio puede conseguir un trabajo como desarrollador web". Ese mismo día me puse a diseñar este portafolio.
+                    <p>
+                        ¡Deseo concedido! Me quedé desempleado y eso me dio mucho tiempo para estudiar JavaScript. Pero lo más importante es que ingresé al programa de becas en EDteam. Ahí conocí muchos programadores y diseñadores de toda latinoamérica.
+                    </p>
+                    <p>
+                        Un día escuché que "Un autodidacta con un buen portafolio puede conseguir un trabajo como desarrollador web". Ese mismo día me puse a diseñar este portafolio.
+                    </p>
                 </div>
             </div>
             <h3>
-                Gracias por llegar hasta aquí. Si quieres contactarme, aquí están mis redes sociales.
+                Gracias por llegar hasta aquí. Si quieres contactarme, estas son mis redes sociales.
             </h3>
             <div className="buttonContainer">
                 <button className="ButtonSubscription" onClick={externalLink1}>

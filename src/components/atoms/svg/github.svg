@@ -3,15 +3,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="group" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="720px" height="720px" viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
-<circle id="ring" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" cx="360" cy="360" r="314.247"/>
+<circle id="ring" fill="none" stroke="#FFFFFF" strokeWidth="8" strokeMiterlimit="10" cx="360" cy="360" r="314.247"/>
 <g id="logoGithub">
 	<defs>
 		<rect id="SVGID_1_" x="97.538" y="96.594" width="523.779" height="516.403"/>
 	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
-	</clipPath>
-	<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M589.425,360.4c0-127.197-103.112-230.308-230.307-230.308
+	<path clipPath="url(#SVGID_2_)" fill="#FFFFFF" d="M589.425,360.4c0-127.197-103.112-230.308-230.307-230.308
 		c-127.196,0-230.311,103.111-230.311,230.308c0,100.957,64.967,186.735,155.368,217.831c5.514-3.978,11.858-8.883,11.858-17.149
 		c0-12.666-0.274-45.25-0.274-45.25s-9.999,1.7-24.264,1.7c-35.949,0-47.314-22.813-52.726-35.581
 		c-7.041-16.627-16.17-24.437-25.873-30.679c-5.956-3.838-7.325-8.355-0.432-9.647c31.817-5.959,39.957,35.886,61.206,42.56

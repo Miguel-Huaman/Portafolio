@@ -1,11 +1,12 @@
 ---
-title: "Renderizando condicional de un componente en 'React.js'"
+title: "Renderizado condicional de componentes en 'React.js'"
 date: 2021-06-05
 tags: react
+layout: post-react
+description: "Guía para el renderizado condicional de componentes en 'React.js'"
 ---
 
-# Renderizando condicional de un componente en 'React.js'
-
+# Renderizado condicional de componentes en 'React.js'
 ````jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -34,7 +35,7 @@ class Page extends React.Component {
       showWarning: !prevState.showWarning
     }));
   }
-  
+
   render() {
     return (
       <div>
@@ -52,3 +53,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ````
+
+***
+
+- Quiero aprender más sobre: ["React"](../00/react)

@@ -7,7 +7,7 @@ import SectionProject2 from '../../molecules/sections/SectionProject2';
 import BlogTema from '../../atoms/images/tema.gif';
 import BlogMenu from '../../atoms/images/menu.gif';
 import BlogSass from '../../atoms/images/sass.gif';
-import Portfolio1 from '../../atoms/images/carousel.jpg';
+import Carousel from '../../atoms/images/carousel.jpg';
 import Portfolio2 from '../../atoms/images/hooks.gif';
 import Portfolio3 from '../../atoms/images/atomic.gif';
 
@@ -67,7 +67,7 @@ function Main() {
                 'Portafolio personal'
                 subtitle_0=
                 'En un portafolio se va a reutiizar mucho código. Por lo tanto decidí utilizar la librería "React"'
-                image_0={Portfolio1}
+                image_0={Carousel}
 
                 title_1=
                 'Este título es un componente reutilizable'
@@ -97,38 +97,38 @@ function Main() {
             <section>Un vistazo a los próximos lanzamientos</section>
             <SectionProjects
                 title=
-                'En Julio...'
+                'No soy diseñador pero...'
                 subtitle=
-                'Una base de datos sobre todos los puestos de trabajo a los cuales he postulado'
-                image0={BlogSass}
+                '... Sé que voy a trabajar con diseñadores. Por lo tanto debo aprender más sobre "Figma" y mejorar los "posters" que diseñé para este portafolio.'
+                image0={Carousel}
 
                 title1=
-                'En Julio...'
+                'No soy diseñador pero...'
                 subtitle1=
-                'Una base de datos sobre todos los puestos de trabajo a los cuales he postulado'
-                image1={Portfolio3}
-                button1='MongoDB'
+                '... Sé que voy a trabajar con diseñadores. Por lo tanto debo aprender más sobre "Figma" y mejorar los "posters" que diseñé para este portafolio.'
+                image1={Carousel}
+                button1='Figma'
 
                 title2=
-                'No soy diseñador pero...'
+                'API REST'
                 subtitle2=
-                '... Sé que voy a trabajar con diseñadores. Por lo tanto debo aprender "Figma"'
+                '¿Ajax o WebSockets? Ese es dilema.'
                 image2={BlogSass}
-                button2='Figma'
+                button2='API'
 
                 title3=
-                'La API más pequeña del mundo'
+                'Una app con JavaScript Puro'
                 subtitle3=
-                'Protagonizada por Ajax y WebSockets'
-                image3={Portfolio3}
-                button3='API'
+                'Es hora de demostrar mis conocimientos en "Programación orientada a objetos".'
+                image3={BlogSass}
+                button3='JavaScript'
 
                 title4=
-                'Una app con JavaScript Puro'
+                'Backend con Node.JS'
                 subtitle4=
-                'Es hora de demostrar mis conocimientos en "Programación orientada a objetos".'
-                image4={BlogSass}
-                button4='JavaScript'
+                '¿Porqué es importante crear bases de datos no relacionales?'
+                image4={Portfolio3}
+                button4='MongoDB'
 
                 title5=
                 'Portafolio - Segunda Temporada'

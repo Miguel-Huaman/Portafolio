@@ -1,10 +1,12 @@
 ---
-title: "Hola mundo en 'React.js'"
+title: "Escribir un 'Hola mundo' con React"
 date: 2021-06-05
 tags: react
+layout: post-react
+description: "Guía definitiva para escribir un 'Hola mundo' con React."
 ---
 
-# Hola Miguel Angel
+# Escribir un 'Hola mundo' con React
 
 ````jsx
 import React from 'react';
@@ -30,3 +32,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ````
+
+***
+
+- Quiero aprender más sobre: ["React"](../00/react)

@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 
 const externalLink1 = () => {
-    window.open('https://www.linkedin.com/in/desarrollador-react-programador-miguel-huaman/', 'self')
+    window.open('https://www.linkedin.com/in/miguel-huaman-desarrollador-frontend-react/', 'self')
 }
 
 const externalLink2 = () => {

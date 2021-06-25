@@ -12,10 +12,10 @@ function Banner(props) {
             </div>
             <div className="container">
                 <MainTitle />
-                <MainSubtitle text={props.subtitle} />
-                <button className="ButtonSubscription">
-                    <a href='#About'>{props.button}</a>
-                </button>
+                <MainSubtitle />
+                <a className="ButtonSubscription" href='#About'>
+                    {props.button}
+                </a>
                 <a className="arrow" href='#Main'> </a>
                 <div className="carousel">
                     <img src={props.poster} width="2000" height="600" alt="poster frontend" />

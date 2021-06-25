@@ -44,14 +44,12 @@
     max-width: 20rem;
     margin: 1em auto;
     align-self: center;
-}
-
-.ButtonSubscription > a {
+    line-height: 4em;
     text-decoration: transparent;
 }
 
-.ButtonSubscription > a:link,
-.ButtonSubscription > a:visited {
+.container > .ButtonSubscription :link,
+.container > .ButtonSubscription :visited {
     color: var(--bg1);
 }
 

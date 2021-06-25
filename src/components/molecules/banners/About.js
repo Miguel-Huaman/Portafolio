@@ -22,13 +22,13 @@ function About(props) {
                         Hasta ahora recuerdo el día que escribí mi primera línea de código. Quedé maravillado cuando la pantalla renderizó lo que yo había escrito.
                     </p>
                     <p>
-                        Mientras más estudiaba JavaScript, menos tiempo tenía para ver series o películas. De pronto todo mi tiempo libre era para diseñar páginas web. Navidad y año nuevo incluidos. En ese momento yo sólo quería tener más tiempo libre para programar...
+                        Mientras más estudiaba JavaScript, menos tiempo tenía para ver series o películas. De pronto, todo mi tiempo libre era para diseñar páginas web. Navidad y año nuevo incluidos. En ese momento yo sólo quería tener más tiempo libre para programar...
                     </p>
                 </div>
                 <div className="year">2021</div>
                 <div>
                     <p>
-                        ¡Deseo concedido! Me quedé desempleado y eso me dio mucho tiempo para estudiar JavaScript. Pero lo más importante es que ingresé al programa de becas en EDteam. Ahí conocí muchos programadores y diseñadores de toda latinoamérica.
+                        ¡Deseo concedido! Me quedé desempleado y eso me dio mucho tiempo para estudiar React. Pero lo más importante es que ingresé al programa de becas en EDteam. Ahí conocí muchos programadores y diseñadores de toda latinoamérica.
                     </p>
                     <p>
                         Un día escuché que "Un autodidacta con un buen portafolio puede conseguir un trabajo como desarrollador web". Ese mismo día me puse a diseñar este portafolio.
